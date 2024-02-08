@@ -1,0 +1,59 @@
+.feedback-form {
+    display: flex;
+flex-direction: column;
+column-gap: 8px;
+    width: 408px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .input-style, 
+  .textarea-style {
+    font-family: Montserrat;
+     
+      width: 360px;
+      height: 40px;
+      border-radius: 4px;
+      border: 1px solid #808080;
+    box-sizing: border-box;
+    color: #2e2f42;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        padding: 8px 16px;
+  }
+  .textarea-style{
+width: 360px;
+            height: 80px;
+            resize: none;
+  }
+.label-style{
+    font-family: Montserrat;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+        
+}
+.btn-style
+ {
+    border-radius: 8px;
+    background: #4E75FF;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 8px 16px;
+    height: 40px;
+    border: none;
+    width: 95px;
+}
+
+
+.btn-style:hover,
+.btn-style:focus {
+    background-color: #6C8CFF;
+}
